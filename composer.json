@@ -26,6 +26,7 @@
 		"issues": "https://github.com/Kdyby/TracyTimer/issues"
 	},
 	"require": {
+		"php": ">= 5.4.0",
 		"nette/di": "~2.2@dev",
 		"tracy/tracy": "~2.2@dev"
 	},
