@@ -1,0 +1,37 @@
+{
+	"name": "kdyby/tracy-timer",
+	"type": "library",
+	"description": "Timer bar for Tracy (Nette Framework)",
+	"keywords": [
+		"nette",
+		"tracy",
+		"kdyby",
+		"timer"
+	],
+	"homepage": "http://kdyby.org",
+	"license": [
+		"BSD-3-Clause",
+		"GPL-2.0",
+		"GPL-3.0"
+	],
+	"authors": [
+		{
+			"name": "Martin Štekl",
+			"homepage": "http://www.steky.cz",
+			"email": "martin.stekl@gmail.com"
+		}
+	],
+	"support": {
+		"email": "martin.stekl@gmail.com",
+		"issues": "https://github.com/Kdyby/TracyTimer/issues"
+	},
+	"require": {
+		"nette/di": "~2.2@dev",
+		"tracy/tracy": "~2.2@dev"
+	},
+	"autoload": {
+		"psr-4": {
+			"Kdyby\\TracyTimer\\": "src/"
+		}
+	}
+}
