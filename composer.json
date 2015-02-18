@@ -33,6 +33,9 @@
 	"autoload": {
 		"psr-4": {
 			"Kdyby\\TracyTimer\\": "src/"
-		}
+		},
+		"files": [
+			"src/shortcuts.php"
+        ]
 	}
 }
